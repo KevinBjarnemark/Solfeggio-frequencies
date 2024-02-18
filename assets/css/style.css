@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -8,10 +11,19 @@
 
 /* Body */
 body {
-   
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: "Grandstander", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #505357;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 120%;
 }
 
 main {
@@ -46,6 +58,11 @@ header {
     background-color: #d5dfe3;
     line-height: 0; 
     border-bottom: 2px solid #c2cdd4;
+    font-family: "Niramit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90%;
+    color: #505357;
 }
 
 .wrap-header {
@@ -72,7 +89,7 @@ header {
     color: inherit;
     background-color: #c6d2d8;
     border-radius: 2px;
-    padding: 0.2em 0.2em;
+    padding: 0.3em;
     margin: 0.5em 0.15em
 }
 
@@ -86,17 +103,3 @@ header {
     max-width: 100%;
     max-height: 90px; /* Keep the logo insied the header */
 }
-
-
-
-/* 
-#contact {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: row;
-    height: 200px;
-    padding: 1em 1em;
-    border: 2px solid #00000053;
-}
- */
