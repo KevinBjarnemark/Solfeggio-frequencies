@@ -8,13 +8,25 @@
 
 /* Body */
 body {
-    min-height: 100vh;
+   
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 main {
     flex: 1 0 auto; /* Push footer to the bottom */
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    height: 200px;
+    padding: 1em 1em;
+    border: 2px solid #00000053;
+    margin-bottom: 20px
 }
 
 footer {
@@ -31,7 +43,6 @@ header {
     justify-content: center;
     align-items: center;
     height: 150px;
-    width: 100vw;
     background-color: #d5dfe3;
     line-height: 0; 
     border-bottom: 2px solid #c2cdd4;
@@ -76,3 +87,16 @@ header {
     max-height: 90px; /* Keep the logo insied the header */
 }
 
+
+
+/* 
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    height: 200px;
+    padding: 1em 1em;
+    border: 2px solid #00000053;
+}
+ */
