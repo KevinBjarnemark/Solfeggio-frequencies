@@ -6,6 +6,25 @@
     box-sizing: border-box;
 }
 
+/* Body */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto; /* Push footer to the bottom */
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    background-color: #00000053;
+
+}
+
 /* Header */
 header {
     display: flex;
