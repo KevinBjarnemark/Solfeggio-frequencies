@@ -1,12 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* Scrollbar style */
+::-webkit-scrollbar {
+    width: 13px; 
+    background: #d4d7da;
+}
+::-webkit-scrollbar-thumb {
+    background: #8a8d91; 
+    border-radius: 2.5px;
+}
+::-webkit-scrollbar-corner {
+    background-color: #606367; 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #777a7c;
 }
 
 /* Body */
@@ -23,6 +40,10 @@ body {
 main h1 {
     font-weight: 300;
     font-size: 120%;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #4b4e51
 }
 
 main {
@@ -37,7 +58,6 @@ main section {
     flex-direction: row;
     height: 200px;
     padding: 1em 1em;
-   /*  border: 2px solid #00000053; */
     margin-bottom: 20px
 }
 
@@ -53,8 +73,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 180px;
-    background: linear-gradient(#cdcfd2, #DFE1E4);
+    height: 240px;
+    background: linear-gradient(#a6a9ae, #DFE1E4);
     background-color: #DFE1E4; /* Fallback if linear-gradient is incompatible */
     line-height: 0;
     font-family: "Niramit", sans-serif;
@@ -86,11 +106,17 @@ header {
 #navigation-menu a {
     text-decoration: none;
     color: inherit;
-    background-color: #d6e0e6;
+    background-color: #e6edf1;
     border-radius: 2px;
-    border: 1px solid #a8b3b9;
-    padding: 0.3em;
-    margin: 0.5em 0.15em
+    padding: 0.1em 0.4em;
+    margin: 0.5em 0.4em
+}
+#navigation-menu a:hover {
+    box-shadow: 0 0 3px 2px #66696b;
+}
+
+#logo {
+    padding: 2em
 }
 
 #logo a {
@@ -108,10 +134,7 @@ header {
 #seamless-wave {
     display: flex;
     justify-content: center;
-    position: absolute;
-    top: 195px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: -75px;
     overflow: hidden;
-
 }
