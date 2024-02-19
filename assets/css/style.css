@@ -37,42 +37,12 @@ body {
     color: #1c1d1e;
 }
 
-main h1 {
-    font-weight: 300;
-    font-size: 120%;
-    font-family: "Luckiest Guy", cursive;
-    font-weight: 400;
-    font-style: normal;
-    color: #4b4e51
-}
-
-main {
-    margin-top: 55px; /* Account for the wave img attached to the header  */
-    flex: 1 0 auto; /* Push footer to the bottom */
-}
-
-main section {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: row;
-    height: 200px;
-    padding: 1em 1em;
-    margin-bottom: 20px
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    height: 150px;
-    background-color: #00000053;
-}
 
 /* Header */
 header {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 240px;
     background: linear-gradient(#a6a9ae, #DFE1E4);
     background-color: #DFE1E4; /* Fallback if linear-gradient is incompatible */
@@ -84,12 +54,12 @@ header {
     color: #505357;
 }
 
+
 .wrap-header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    height: 100%;
     width: 100%;
 }
 
@@ -98,9 +68,11 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    width: 100%;
     font-size: 110%;
     list-style-type: none;
     margin-top: 20px;
+
 }
 
 #navigation-menu a {
@@ -109,8 +81,9 @@ header {
     background-color: #e6edf1;
     border-radius: 2px;
     padding: 0.1em 0.4em;
-    margin: 0.5em 0.4em
+    margin: 0.5em 0.4em;
 }
+
 #navigation-menu a:hover {
     box-shadow: 0 0 3px 2px #66696b;
 }
@@ -130,11 +103,55 @@ header {
     max-height: 90px; /* Keep the logo insied the header */
 }
 
+/* Main */
+main {
+    margin-top: 55px; /* Account for the wave img attached to the header  */
+    flex: 1 0 auto; /* Push footer to the bottom */
+}
+
+main h1 {
+    font-weight: 300;
+    font-size: 120%;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #4b4e51
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    height: 200px;
+    padding: 1em 1em;
+    margin-bottom: 20px
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    background-color: #00000053;
+}
 
 #seamless-wave {
     display: flex;
     justify-content: center;
     position: relative;
-    top: -75px;
+    top: -73px;
     overflow: hidden;
+}
+
+/* Media query: tablets and larger */
+@media screen and (min-width: 768px) {
+    header {
+        padding-left: 13%;
+        align-items: center;
+        height: 210px;
+    }
+    .wrap-header {
+        flex-direction: row;
+    }
+
 }
