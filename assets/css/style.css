@@ -37,6 +37,11 @@ body {
     color: #1c1d1e;
 }
 
+/* general styles */
+a {
+    text-decoration: none;
+}
+
 
 /* Header */
 header {
@@ -76,7 +81,6 @@ header {
 }
 
 #navigation-menu a {
-    text-decoration: none;
     color: inherit;
     background-color: #e6edf1;
     border-radius: 2px;
@@ -107,6 +111,7 @@ header {
 main {
     margin-top: 55px; /* Account for the wave img attached to the header  */
     flex: 1 0 auto; /* Push footer to the bottom */
+    min-height: 100vh;
 }
 
 main h1 {
@@ -130,9 +135,11 @@ main section {
 
 footer {
     display: flex;
-    flex-direction: column;
-    height: 150px;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
     background-color: #00000053;
+    padding: 80px 0;
 }
 
 #seamless-wave {
@@ -141,6 +148,18 @@ footer {
     position: relative;
     top: -73px;
     overflow: hidden;
+}
+
+
+
+#social-icons h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+#social-icons a {
+    padding: 0 6px;
 }
 
 /* Media query: tablets and larger */
@@ -153,5 +172,4 @@ footer {
     .wrap-header {
         flex-direction: row;
     }
-
 }
