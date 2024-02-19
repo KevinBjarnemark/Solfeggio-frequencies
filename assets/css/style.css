@@ -14,19 +14,19 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: "Grandstander", cursive;
-    font-optical-sizing: auto;
+    font-family: "Grandstander", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #505357;
+    color: #1c1d1e;
 }
 
-h1 {
-    font-weight: 600;
+main h1 {
+    font-weight: 300;
     font-size: 120%;
 }
 
 main {
+    margin-top: 55px; /* Account for the wave img attached to the header  */
     flex: 1 0 auto; /* Push footer to the bottom */
 }
 
@@ -37,7 +37,7 @@ main section {
     flex-direction: row;
     height: 200px;
     padding: 1em 1em;
-    border: 2px solid #00000053;
+   /*  border: 2px solid #00000053; */
     margin-bottom: 20px
 }
 
@@ -46,7 +46,6 @@ footer {
     flex-direction: column;
     height: 150px;
     background-color: #00000053;
-
 }
 
 /* Header */
@@ -54,10 +53,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
-    background-color: #d5dfe3;
-    line-height: 0; 
-    border-bottom: 2px solid #c2cdd4;
+    height: 180px;
+    background: linear-gradient(#cdcfd2, #DFE1E4);
+    background-color: #DFE1E4; /* Fallback if linear-gradient is incompatible */
+    line-height: 0;
     font-family: "Niramit", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -87,8 +86,9 @@ header {
 #navigation-menu a {
     text-decoration: none;
     color: inherit;
-    background-color: #c6d2d8;
+    background-color: #d6e0e6;
     border-radius: 2px;
+    border: 1px solid #a8b3b9;
     padding: 0.3em;
     margin: 0.5em 0.15em
 }
@@ -102,4 +102,16 @@ header {
     width: auto; /* Prevent image stretching */
     max-width: 100%;
     max-height: 90px; /* Keep the logo insied the header */
+}
+
+
+#seamless-wave {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 195px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
 }
