@@ -50,7 +50,7 @@ header {
     justify-content: center;
     align-items: flex-start;
     height: 240px;
-    background: linear-gradient(#a6a9ae, #DFE1E4);
+    background: linear-gradient(#c2d8ff, #DFE1E4);
     background-color: #DFE1E4; /* Fallback if linear-gradient is incompatible */
     line-height: 0;
     font-family: "Niramit", sans-serif;
@@ -58,6 +58,8 @@ header {
     font-style: normal;
     font-size: 90%;
     color: #505357;
+    border: 3.5px dashed #747c81;
+    border-bottom: none
 }
 
 
@@ -125,7 +127,6 @@ main h1 {
     font-style: normal;
     color: #4b4e51;
     text-align: center;
-    
 }
 
 main section {
