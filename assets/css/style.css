@@ -31,7 +31,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: "Grandstander", sans-serif;
+    font-family: "Niramit", sans-serif;
+    font-size: 100%;
     font-weight: 400;
     font-style: normal;
     color: #1c1d1e;
@@ -109,9 +110,11 @@ header {
 
 /* Main */
 main {
-    margin-top: 55px; /* Account for the wave img attached to the header  */
+    padding-top: 55px; /* Account for the wave img attached to the header  */
     flex: 1 0 auto; /* Push footer to the bottom */
     min-height: 100vh;
+    background-color: #d8e0e5;
+    
 }
 
 main h1 {
@@ -120,26 +123,47 @@ main h1 {
     font-family: "Luckiest Guy", cursive;
     font-weight: 400;
     font-style: normal;
-    color: #4b4e51
+    color: #4b4e51;
+    text-align: center;
+    
 }
 
 main section {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    flex-direction: row;
-    height: 200px;
-    padding: 1em 1em;
-    margin-bottom: 20px
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
+
+#text-component {
+    width: 70%;
+}
+
+#text-component a {
+    color: #4ea7ff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 80%;
+}
+#text-component a:hover {
+    text-decoration: underline;
+}
+
+
+
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: fit-content;
-    background-color: #00000053;
+    background-color: #ffffff;
     padding: 80px 0;
+}
+
+footer h1 {
+    font-weight: 400;
 }
 
 #seamless-wave {
@@ -149,8 +173,6 @@ footer {
     top: -73px;
     overflow: hidden;
 }
-
-
 
 #social-icons h1 {
     display: flex;
