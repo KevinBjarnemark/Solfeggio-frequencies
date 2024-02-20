@@ -50,7 +50,7 @@ header {
     justify-content: center;
     align-items: flex-start;
     height: 240px;
-    background: linear-gradient(#c2d8ff, #DFE1E4);
+    background: linear-gradient(#c2d8ff, #d8e0e5);
     background-color: #DFE1E4; /* Fallback if linear-gradient is incompatible */
     line-height: 0;
     font-family: "Niramit", sans-serif;
@@ -109,24 +109,16 @@ header {
     max-width: 100%;
     max-height: 90px; /* Keep the logo insied the header */
 }
+#logo img:hover {
+    filter: brightness(1.1);
+}
 
 /* Main */
 main {
     padding-top: 55px; /* Account for the wave img attached to the header  */
     flex: 1 0 auto; /* Push footer to the bottom */
     min-height: 100vh;
-    background-color: #d8e0e5;
-    
-}
-
-main h1 {
-    font-weight: 300;
-    font-size: 120%;
-    font-family: "Luckiest Guy", cursive;
-    font-weight: 400;
-    font-style: normal;
-    color: #4b4e51;
-    text-align: center;
+    background-color: #e3e9ed;
 }
 
 main section {
@@ -138,7 +130,18 @@ main section {
 }
 
 #text-component {
-    width: 70%;
+    width: 92%;
+}
+
+#text-component h1 {
+    padding-bottom: 7px;
+    font-weight: 300;
+    font-size: 120%;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #4b4e51;
+    text-align: center;
 }
 
 #text-component a {
@@ -150,9 +153,6 @@ main section {
 #text-component a:hover {
     text-decoration: underline;
 }
-
-
-
 
 footer {
     display: flex;
@@ -185,6 +185,12 @@ footer h1 {
     padding: 0 6px;
 }
 
+/* Media query: large phones and larger */ 
+@media screen and (min-width: 576px) {
+    #text-component {
+        width: 90%;
+    }
+}
 /* Media query: tablets and larger */
 @media screen and (min-width: 768px) {
     header {
@@ -194,5 +200,8 @@ footer h1 {
     }
     .wrap-header {
         flex-direction: row;
+    }
+    #text-component {
+        width: 70%;
     }
 }
