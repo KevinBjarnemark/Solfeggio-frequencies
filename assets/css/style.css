@@ -83,7 +83,7 @@ header {
     max-height: 90px; /* Keep the logo insied the header */
 }
 #logo img:hover {
-    filter: brightness(1.1);
+    transform: scale(1.1);
 }
 
 #seamless-wave {
@@ -125,7 +125,7 @@ input[type="email"] {
     padding: 0.8em 0.7em;
     border: 2px solid #8b9094;
     border-radius: 5px;
-    width: 60%;
+    width: 95%;
 }
 
 input[type="radio"] {
@@ -138,7 +138,7 @@ legend {
 
 fieldset {
     margin-bottom: 25px;
-    width: 90%; /* Make the fieldset stand out a bit relative to the text/email inputs */
+    width: 100%;
 }
 
 .radio-group {
@@ -154,8 +154,6 @@ fieldset {
     width: 100%;
     align-items: flex-start;
 }
-
-
 
 /* Main */
 main {
@@ -257,6 +255,14 @@ footer h1 {
 /* Media query: large phones and larger */ 
 @media screen and (min-width: 576px) {
     #text-component {
+        width: 90%;
+    }
+    input[type="text"],
+    input[type="email"] {   
+        width: 60%
+    }
+    /* Make the fieldset stand out a bit relative to the text/email inputs */
+    fieldset {
         width: 90%;
     }
 }
