@@ -41,11 +41,12 @@ header {
     font-size: 90%;
     color: #505357;
     border: 3.5px dashed #747c81;
-    border-bottom: none
+    border-bottom: none;
 }
 
-#navigation-menu {
-    display: flex;
+#navigation-menu, 
+#toggled-navigation-menu {
+    display: flex; /* Hide by default to follow a 'mobile-first' design */
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -53,10 +54,15 @@ header {
     font-size: 110%;
     list-style-type: none;
     margin-top: 20px;
-
 }
 
-#navigation-menu a {
+/* Hide all list items that do not contain the "contact-item" class */
+#navigation-menu li:not(:has(> .contact-item)) {
+    display: none;
+}
+
+#navigation-menu a,
+#toggled-navigation-menu a {
     color: inherit;
     background-color: #e6edf1;
     border-radius: 2px;
@@ -64,8 +70,20 @@ header {
     margin: 0.5em 0.4em;
 }
 
-#navigation-menu a:hover {
+#navigation-menu a:hover,
+#toggled-navigation-menu a:hover {
     box-shadow: 0 0 3px 2px #66696b;
+}
+
+/* Specific to the navigation pop-up */
+#toggled-navigation-menu {
+    flex-direction: column;
+}
+#toggled-navigation-menu a {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #9aa2ab;
+    min-width: 50vw;
 }
 
 #logo {
@@ -101,6 +119,58 @@ header {
     flex-direction: column;
     width: 100%;
 }
+
+/* Toggle navigation */
+.toggled-navigation {
+    z-index: 1;
+    display:none; /* Hidden by default */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center; 
+    justify-content: center;
+    width: 80vw;
+    height: 80vh;
+    background-color: #ffffff;
+    flex-direction: row; 
+}
+/* Style for the toggle button */
+.toggle-navigation-component .fa-bars {
+    z-index: 1;
+    position: fixed;
+    font-size: 40px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.toggle-navigation-checkbox {/* Hide the checkbox entirely */
+    display: none;
+}
+/* Show navigation when checkbox is checked */
+.toggle-navigation-checkbox:checked + label + .toggled-navigation {
+    display: flex;
+}
+
+
+.toggle-navigation-component #navigation-menu {
+    flex-direction: column;
+}
+
+.x-button {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 28px;
+    margin: 4vw 4vh;
+    cursor: pointer;
+}
+.fa-x {
+    cursor: pointer;
+}
+
+/*#endregion ---------------------------------*/
 
 /* Body */
 body {
@@ -263,6 +333,16 @@ footer h1 {
 
 /* Media query: large phones and larger */ 
 @media screen and (min-width: 576px) {
+    /* Only toggle navigation on small screen sizes */
+    .toggle-navigation-component {
+        display: none;
+    }
+
+    /* Hide all list items that do not contain the "contact-item" class */
+    #navigation-menu li:not(:has(> .contact-item)) {
+        display: block;
+    }
+
     #text-component {
         width: 90%;
     }

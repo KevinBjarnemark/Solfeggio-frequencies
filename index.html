@@ -18,6 +18,32 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <!-- Toggle mobile navigation -->
+    <div class="toggle-navigation-component">
+        <!-- Checkbox for toggeling navigation -->
+        <input type="checkbox" id="toggle-navigation-checkbox" class="toggle-navigation-checkbox">
+        <label for="toggle-navigation-checkbox" class="fa-solid fa-bars" id="toggle-navigation-component"></label>
+
+        <!-- Toggled navigation -->
+        <div id="toggled-navigation" class="toggled-navigation">
+            <!-- X button (The label targets the toggle-navigation-checkbox 
+                that is previously configured) -->
+                <div class="x-button">
+                    <input type="checkbox" class="toggle-navigation-checkbox">
+                    <label for="toggle-navigation-checkbox" class="fa-solid fa-x"></label>
+                </div>
+
+            <!-- Navigation elements -->
+            <nav>
+                <ul id="toggled-navigation-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                    <li><a href="about.html">About us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
     <!-- Header -->
     <header>
         <div class="wrap-header">
@@ -29,7 +55,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="signup.html">Sign Up</a></li>
                     <li><a href="about.html">About us</a></li>
-                    <li><a href="#social-icons">Contact</a></li>
+                    <li><a class="contact-item" href="#social-icons">Contact</a></li>
                 </ul>
             </nav>
         </div>
