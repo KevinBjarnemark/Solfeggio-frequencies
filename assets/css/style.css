@@ -170,8 +170,6 @@ header {
     cursor: pointer;
 }
 
-/*#endregion ---------------------------------*/
-
 /* Body */
 body {
     display: flex;
@@ -247,6 +245,45 @@ main section {
     width: 100%;
 }
 
+#table-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9ca2a7;
+    margin-top: 80px;
+    padding: 0em 2em;
+}
+
+#table i {
+    font-size: 150%;
+    color: #66b9e8;
+}
+
+#table-wrapper a {
+    margin-top: 15px;
+}
+
+/* Targets the first td in table */
+td:first-child {
+    font-family: "Luckiest Guy", cursive;
+}
+
+td, th {
+    padding: 0.7em 1em
+}
+
+tr {
+    background-color: #d5dee4;
+}
+
+
 #text-component {
     width: 92%;
 }
@@ -266,12 +303,13 @@ main section {
     margin: 0 8px
 }
 
-#text-component a {
+.source-link {
     color: #4ea7ff;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 80%;
 }
+
 #text-component a:hover {
     text-decoration: underline;
 }
