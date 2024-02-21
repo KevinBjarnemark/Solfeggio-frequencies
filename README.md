@@ -1,6 +1,13 @@
 
 
 
+
+Introduction
+This is a fictitious website in that it's not intended to be maintained. Contact information, 
+social media links, the about page, and the sign up page are created for showcasing purposes
+and do not contain truthful information. 
+
+
 Fonts used:
 https://fonts.google.com/specimen/Niramit
 https://fonts.google.com/specimen/Grandstander

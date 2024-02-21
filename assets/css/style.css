@@ -119,6 +119,11 @@ a {
     text-decoration: none;
 }
 
+p em {
+    font-style: normal;
+    font-weight: 700;
+}
+
 /* Form inputs */
 input[type="text"],
 input[type="email"] {
@@ -185,6 +190,10 @@ main section {
     font-style: normal;
     color: #4b4e51;
     text-align: center;
+}
+
+#text-component i {
+    margin: 0 8px
 }
 
 #text-component a {
