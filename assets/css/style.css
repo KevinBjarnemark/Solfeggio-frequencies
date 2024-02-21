@@ -258,7 +258,6 @@ main section {
     justify-content: center;
     background-color: #9ca2a7;
     margin-top: 80px;
-    padding: 0em 2em;
 }
 
 #table i {
@@ -310,8 +309,24 @@ tr {
     font-size: 80%;
 }
 
-#text-component a:hover {
+.source-link:hover {
     text-decoration: underline;
+}
+
+
+
+#contact {
+    margin: 90px 0;
+    width: 93%;
+}
+
+#contact h1 {
+    text-align: center;
+    font-weight: 400;
+}
+
+#contact p {
+    text-align: center;
 }
 
 #signup {
@@ -392,6 +407,11 @@ footer h1 {
     fieldset {
         width: 90%;
     }
+
+    #table {
+        padding: 0em 2em;
+    }
+    
 }
 /* Media query: tablets and larger */
 @media screen and (min-width: 768px) {

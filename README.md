@@ -1,13 +1,12 @@
 
-
-
-
 Introduction
 This website is pure HTML and CSS therefore, conditional logic may be reconsidered with 
 javascript for more complex websites. This project is also fictitious in that it's not 
 intended to be maintained. Contact information, social media links, the about page, and 
 the sign up page are created for 'showcasing purposes' and do not contain truthful or 
 accurate information. 
+
+All references to articles can be found on site with clickable links. 
 
 
 Fonts used:
