@@ -57,7 +57,16 @@ All references to articles are accessible through clickable links within the web
 There are a lot of features that could be added to this project. As already mentioned, audio integration, and more intricate systems for learning about sound and sound therapy. As of right now, the website is very minimalistic and the user should have the option to dive into more advanced realms. Perhaps with expandable sections or a global mode that switches to a more complex view. 
 
 
-## Testing
+## Maintenance 
+Due to this project's minimalistic charactaristics, it would be optimal to introduce Javascript for future development. This was intended to be a pure HTML and CSS project and to manage close buttons and conditional logic can be quite compehensive as the project grow in size. 
+
+Nevertheless, the code for this project is built with sustainability in mind. For example, CSS classes and id's are locked in groups to promote further development without having to reorganize previous code. 
+
+
+
+
+
+
 
 
 
