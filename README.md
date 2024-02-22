@@ -1,30 +1,28 @@
+# Project Solfeggio frequencies 
 
-Introduction
-This website is pure HTML and CSS therefore, conditional logic may be reconsidered with 
-javascript for more complex websites. This project is also fictitious in that it's not 
-intended to be maintained. Contact information, social media links, the about page, and 
-the sign up page are created for 'showcasing purposes' and do not contain truthful or 
-accurate information. 
+## Introduction
 
-All references to articles can be found on site with clickable links. 
+- This website is pure HTML and CSS; therefore, conditional logic may need to be reconsidered with JavaScript for more complex websites. This project is also fictitious in that it is not intended to be maintained. Contact information, social media links, the About page, and the Sign Up page are created for showcasing purposes and do not contain truthful or accurate information.
 
+## Resources
 
-Fonts used:
-https://fonts.google.com/specimen/Niramit
-https://fonts.google.com/specimen/Grandstander
+### Fonts
 
-Images ised:
-The wave header image was drawn in Affinity Photo (image editing software)
+The following fonts from Google Fonts were used in this project:
 
-Logo:
-The logo was 
+- [Niramit](https://fonts.google.com/specimen/Niramit)
+- [Grandstander](https://fonts.google.com/specimen/Grandstander)
+- [Luckiest Guy](https://fonts.google.com/specimen/Luckiest+Guy)
 
-Social icons:
-All social icons are branding resources that originate from the company at hand. 
-No links are provided due to legal resons. 
+### References
 
+All references to articles within the site are accessible through clickable links.
 
-Favicon copyright Information
-The favicon for this project was created using the Grandstrander font, which is available from Google Fonts. This font is designed by Tyler Finck, and is free to use for both personal and commercial use.
-Link: https://fonts.google.com/specimen/Grandstander
+## Images, logo and favicon Information
 
+- The images for this project was created and drawn using image editing softwares.
+- The favicon is a blend of the 'Grandstander' and the 'Luckiest Guy' google fonts. These fonts are free to use for both personal and commercial use.
+
+### Social Icons
+
+- All social icons used in this project are branding resources provided by the respective companies.
