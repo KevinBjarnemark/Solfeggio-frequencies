@@ -314,19 +314,23 @@ tr {
 }
 
 
-
 #contact {
-    margin: 90px 0;
-    width: 93%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+#contact div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #contact h1 {
-    text-align: center;
-    font-weight: 400;
-}
-
-#contact p {
-    text-align: center;
+    padding-bottom: 5px;
+    font-weight: 300;
 }
 
 #signup {
@@ -363,8 +367,9 @@ tr {
 /* Footer */
 footer {
     display: flex;
-    justify-content: center;
+/*     justify-content: center; */
     align-items: center;
+    flex-direction: column;
     height: fit-content;
     background-color: #ffffff;
     padding: 80px 0;
