@@ -192,7 +192,7 @@ p em {
 }
 
 h1 {
-    font-size: 200%;
+    font-size: 180%;
 }
 
 h2 {
@@ -252,10 +252,19 @@ main section {
     width: 100%;
 }
 
+#introduction h1 {
+    padding-bottom: 15px;
+}
+
+#introduction em {
+    text-decoration: underline wavy #abb8c0;
+}
+
 #introduction video {
     width: 61%;
     height: auto; /* Keep original proportions */
-    padding-bottom: 85px;
+    margin-bottom: 85px;
+    border: 2px solid #636e74;
     border-radius: 10px;
 }
 
