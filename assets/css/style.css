@@ -244,6 +244,11 @@ main section {
     width: 100%;
 }
 
+#introduction video {
+    width: 61.8%;
+    height: auto; /* Keep original proportions */
+}
+
 #table-wrapper {
     display: flex;
     align-items: center;
