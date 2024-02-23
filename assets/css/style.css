@@ -271,7 +271,7 @@ main section {
 
 
 #introduction video {
-    width: 61%;
+    width: 90%;
     height: auto; /* Keep original proportions */
     margin-bottom: 85px;
     border: 2px solid #636e74;
@@ -435,6 +435,12 @@ footer h1 {
     .text-component {
         width: 90%;
     }
+
+    /* Decrease video size on larger screen sizes */
+    #introduction video {
+        width: 61%;
+    }
+
     input[type="text"],
     input[type="email"] {   
         width: 60%
