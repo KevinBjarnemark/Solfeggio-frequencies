@@ -201,6 +201,10 @@ h2 {
     font-size: 120%;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Form inputs */
 input[type="text"],
 input[type="email"] {
