@@ -245,8 +245,10 @@ main section {
 }
 
 #introduction video {
-    width: 61.8%;
+    width: 61%;
     height: auto; /* Keep original proportions */
+    padding-bottom: 85px;
+    border-radius: 10px;
 }
 
 #table-wrapper {
@@ -286,11 +288,11 @@ tr {
     background-color: #d5dee4;
 }
 
-#text-component {
+.text-component {
     width: 92%;
 }
 
-#text-component h1 {
+.text-component h1 {
     padding-bottom: 7px;
     font-weight: 300;
     font-size: 120%;
@@ -301,7 +303,7 @@ tr {
     text-align: center;
 }
 
-#text-component i {
+.text-component i {
     margin: 0 8px
 }
 
@@ -340,7 +342,7 @@ tr {
     text-align: left;
 }
 
-#signup #text-component {
+#signup .text-component {
     padding: 1em 1em;
     text-align: center;
 }
@@ -404,7 +406,7 @@ footer h1 {
         display: block;
     }
 
-    #text-component {
+    .text-component {
         width: 90%;
     }
     input[type="text"],
@@ -431,7 +433,7 @@ footer h1 {
     .wrap-header {
         flex-direction: row;
     }
-    #text-component {
+    .text-component {
         width: 70%;
     }
 }
