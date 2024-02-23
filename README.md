@@ -12,7 +12,7 @@ The vision for this project is to implement more intricate systems with playable
 ## Features 
 
 ### Navigation system
-All pages on this website share the same navigation system. It is a fully responsive system that collapses into a clickable hamburger icon on smaller screen sizes (mobile) and a typical navigation layout on larger screen sizes (desktop). When you click the hamburger icon on mobile, a container will pop up listing the page links in a column instead of a row. The links have a relatively large margin, making it easy to navigate on a small device.
+All pages on this website share the same navigation system. It is a fully responsive system that collapses into a clickable hamburger icon on smaller screen sizes (mobile) and a typical navigation layout on larger screen sizes (desktop). When you click the hamburger icon on mobile, a container will pop up listing the page links in a column instead of a row. The links have a relatively large margin, making it easy to navigate on a small devices.
 
 ### Header image
 The header image represents a waveform that attempts to signal to the user's first impression that this website's theme is all about frequencies. Captivating users using their interest as bait (for good intensions of course).
@@ -22,10 +22,10 @@ The header image represents a waveform that attempts to signal to the user's fir
 ##### Landing page
 - A text section introducing the user to the subject with very basic iinformation about the Solfeggio frequencies.
 
-- A table that maps out all the Solfeggio frequencies in order. Relevant icons are placed in each row to mkae it easy for the user to find a specific row and also to quickliy grasp what the frequency is all about.
+- A table that maps out all the Solfeggio frequencies in order. Relevant icons are placed in each row to make it easy for the user to find a specific row and also to quickliy grasp what the frequency is all about.
 
 ##### Sign up page
-- On this page, the user can sign up to get notifications about the latest updates. The page is fully responsive and the input fields are adjusted based on the screen size of the user. Aside from normal input fields (name, email, etc.) the user also gets to inform the platform of their previous experience with the Solfeggio frequencies.
+- On this page, the user can sign up to get notifications about the latest updates. The page is fully responsive and the input fields are adjusted based on the screen size of the device. Aside from normal input fields (name, email, etc.) the user also gets to inform the platform of their previous experience with the Solfeggio frequencies.
 
 ##### About page
 - This page gives the reader a background of how the project started, the reasoning behind it, and the vision that the team behind the platform has. 
