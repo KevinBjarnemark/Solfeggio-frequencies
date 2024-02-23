@@ -256,9 +256,19 @@ main section {
     padding-bottom: 15px;
 }
 
-#introduction em {
-    text-decoration: underline wavy #abb8c0;
+#introduction h1 em {
+    text-decoration: underline wavy #ffc079;
+    font-style: normal;
 }
+
+#introduction i {
+    color: #ffc079;
+}
+
+#introduction p {
+    margin-bottom: 20px;
+}
+
 
 #introduction video {
     width: 61%;
