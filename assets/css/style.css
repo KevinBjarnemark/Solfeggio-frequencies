@@ -25,13 +25,16 @@
     background: #777a7c;
 }
 
+:root {--orange-gradient: linear-gradient(#ffc977, #d8e0e5);}
+
+
 /* Header */
 header {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     height: 240px;
-    background: linear-gradient(#ffc977, #d8e0e5);
+    background: var(--orange-gradient);
     background-color: #DFE1E4; /* Fallback if linear-gradient is incompatible */
     line-height: 0;
     font-family: "Niramit", sans-serif;
@@ -63,15 +66,15 @@ header {
 #navigation-menu a,
 #toggled-navigation-menu a {
     color: inherit;
-    background-color: #e6edf1;
     border-radius: 2px;
     padding: 0.1em 0.4em;
     margin: 0.5em 0.4em;
+    box-shadow: 0 0 3px 2px #8a8f935b;
 }
 
 #navigation-menu a:hover,
 #toggled-navigation-menu a:hover {
-    box-shadow: 0 0 3px 2px #66696b;
+    background-color: #74c7ff51;
 }
 
 /* Specific to the navigation pop-up */
