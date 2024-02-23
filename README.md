@@ -44,10 +44,13 @@ The following fonts from Google Fonts were used in this project:
 
 All references to articles are accessible through clickable links within the website. 
 
-## Images, logo and favicon Information
+## Images, videos, logo and favicon Information
 
 - The images for this project was created and drawn using image editing softwares.
 - The favicon is a blend of the 'Grandstander' and the 'Luckiest Guy' google fonts. These fonts are free to use for both personal and commercial use.
+- The video found at the landing page was downloaded from pexels [(Link)](https://www.pexels.com/video/vibrating-speaker-856298/), click [here](https://www.pexels.com/@pixabay/) to explore more videos from this creator.
+
+
 
 ### Social Icons
 
