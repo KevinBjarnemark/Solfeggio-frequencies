@@ -25,6 +25,7 @@
     background: #777a7c;
 }
 
+/* Global variables */
 :root {--orange-gradient: linear-gradient(#ffc977, #d8e0e5);}
 
 /* Header */
@@ -40,11 +41,19 @@ header {
     font-weight: 400;
     font-style: normal;
     font-size: 90%;
-    color: #505357;
     border: 3.5px dashed #747c81;
     border-bottom: none;
 }
 
+.wrap-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Navigation system */
 #navigation-menu, 
 #toggled-navigation-menu {
     display: flex; /* Hide by default to follow a 'mobile-first' design */
@@ -92,14 +101,12 @@ header {
 }
 
 #logo a {
-    display: inline-block;
+    display: inline-block;/* Link to homepage */
     line-height: 0;
 }
 
 #logo img {
     width: auto; /* Prevent image stretching */
-    max-width: 100%;
-    max-height: 90px; /* Keep the logo insied the header */
 }
 #logo img:hover {
     transform: scale(1.1);
@@ -111,14 +118,6 @@ header {
     position: relative;
     top: -73px;
     overflow: hidden;
-}
-
-.wrap-header {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
 }
 
 /* Toggle navigation */
@@ -136,6 +135,7 @@ header {
     flex-direction: row; 
     background: var(--orange-gradient);
 }
+
 /* Style for the toggle button */
 .toggle-navigation-component .fa-bars {
     z-index: 1;
@@ -153,7 +153,6 @@ header {
     display: flex;
 }
 
-
 .toggle-navigation-component #navigation-menu {
     flex-direction: column;
 }
@@ -167,6 +166,8 @@ header {
     margin: 4vw 4vh;
     cursor: pointer;
 }
+
+/* Fontawesome icon class */
 .fa-x {
     cursor: pointer;
 }

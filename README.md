@@ -31,6 +31,8 @@ The header image represents a waveform that attempts to signal to the user's fir
 ##### About page
 - This page gives the reader a background of how the project started, the reasoning behind it, and the team's vision behind the platform.
 
+!["The different pages and their conent"](assets/images/readMe/content.jpg "Content")
+
 ## Resources
 
 ### Fonts
@@ -45,10 +47,12 @@ The following fonts from Google Fonts were used in this project:
 
 All references to articles are accessible through clickable links within the website.
 
-## Images, videos, logo and favicon Information
+## Images, icons, videos, logo and favicon Information
 
 - The images for this project were created and drawn using image editing softwares.
 - The video found on the landing page was downloaded from Pexels [(Link)](https://www.pexels.com/video/vibrating-speaker-856298/), click [here](https://www.pexels.com/@pixabay/) to explore more videos from this creator.
+- The icons used in this project was found at Fontawesome [(link)](https://fontawesome.com/),
+
 
 ### Social Icons
 
