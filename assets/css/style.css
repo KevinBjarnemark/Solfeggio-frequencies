@@ -419,6 +419,14 @@ footer h1 {
     font-weight: 400;
 }
 
+/* Enables flex and helps the positioning */
+#social-icons {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    align-items: center;
+}
+
 #social-icons h1 {
     display: flex;
     justify-content: center;
