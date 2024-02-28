@@ -11,7 +11,7 @@ The vision for this project is to implement more intricate systems with playable
 
 ## Features 
 
-!["Different screensizes of the webpage"](images/readMe/screensizes.jpg "Layout")
+!["Different screensizes of the webpage"](assets/images/readMe/screensizes.jpg "Layout")
 
 ### Navigation system
 All pages on this website share the same navigation system. It is a fully responsive system that collapses into a clickable hamburger icon on smaller screen sizes (mobile) and a typical navigation layout on larger screen sizes (desktop). When you click the hamburger icon on mobile, a container will pop up listing the page links in a column instead of a row. The links have a relatively large margin, making it easy to navigate on a small devices.
