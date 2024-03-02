@@ -277,20 +277,18 @@ main section {
 }
 
 .video-wrapper {
-    display: flex;
-    width: 100%;
+    width: 80%;
     max-width: 1920px;
     aspect-ratio: 16 / 9;
-    justify-content: center;
-    align-items: flex-start;
     border-radius: 4px;
     border: 2px solid #636e74;
-    margin-bottom: 85px;
+    margin-bottom: 85px; 
     overflow: hidden;
 }
 
 .video-wrapper video {
     width: 100%;
+    min-width: 100%;
     height: auto; /* Maintain the aspect ratio */
 }
 
@@ -464,7 +462,7 @@ footer h1 {
     }
 
     /* Decrease video size on larger screen sizes */
-    #introduction video {
+    .video-wrapper {
         width: 61%;
     }
 
