@@ -1,12 +1,12 @@
 # Project Solfeggio frequencies 
 
 ## Disclaimer!
-- This is a 'fictitious' project in that it is **not** intended to act as a source of truthful or accurate information.
+- This is a 'fictitious' demonstration project and it is not intended to act as a source of truthful or accurate information. 
 
 ## Introduction
 This website targets people with an interest in sound therapy, specifically the **Solfeggio frequencies**. It is a simple project that attempts to spread useful information on this topic by mapping out famous frequencies in order, making them easy to remember.
 
-The vision for this project is to implement more intricate systems with playable sound, more detailed information, community chats, and meet-ups. Moreover, organizations could perhaps get access to special systems that can be implemented in spas, hotels, therapy facilities, and other places that aim to promote health. 
+The website should be referred to as an MVP (Minimum Viable Product) and the vision is to implement more intricate systems that can reach a wider audience. The aim is to develop more advanced systems that are suitable for environments such as spas, hotels, therapy centers, and other places that aim to promote health.
 
 ## Features 
 
@@ -33,6 +33,27 @@ The header image represents a waveform that attempts to signal to the user's fir
 
 !["The different pages and their conent"](assets/images/readMe/content.jpg "Content")
 
+## Vision
+
+As of right now, the website is very minimalistic and the user should have the option to dive into more advanced realms. Here's a breakdown of some features that could benefit from further development.
+
+#### Frequency table
+- More visual integration with cymatics images. Cymatics is the patterns that the frequencies create through their vibrations. This can be achieved by pouring salt on a frequency generator plate. 
+- Sound integration.
+- Drag and drop functionality with the possibility to save and categorize frequencies. 
+
+#### Sign up  
+Users should be able to visit a personal account page and manage their accounts in alignment with industry standards. 
+
+#### Long term
+Many possibilities lay ahead If the project becomes successful. As already mentioned, the intent is to integrate more intricate systems as the audience grows. Below is a list of how this progress may look like.
+
+- Provide an MVP to a targeted audience.
+- Improve the system with the help of user feedback.
+- Implement new features and expand the targeted audience.
+
+In the case of the project becoming successful, organizations that aim to promote health would be allowed to access special systems on the site. Therapists who seek to combine their methods with sound therapy might want to, in a more controlled way, configure these systems with their daily routines. 
+
 ## Resources
 
 ### Fonts
@@ -40,41 +61,32 @@ The header image represents a waveform that attempts to signal to the user's fir
 The following fonts from Google Fonts were used in this project:
 
 - [Niramit](https://fonts.google.com/specimen/Niramit)
-- [Grandstander](https://fonts.google.com/specimen/Grandstander)
 - [Luckiest Guy](https://fonts.google.com/specimen/Luckiest+Guy)
 
 ### References
 
 All references to articles are accessible through clickable links within the website.
 
-## Images, icons, videos, logo and favicon Information
+### Images, icons, videos, logo and favicon Information
 
 - The images for this project were created and drawn using image editing softwares.
 - The video found on the landing page was downloaded from Pexels [(Link)](https://www.pexels.com/video/vibrating-speaker-856298/), click [here](https://www.pexels.com/@pixabay/) to explore more videos from this creator.
 - The icons used in this project was found at Fontawesome [(link)](https://fontawesome.com/),
 
-
 ### Social Icons
 
 - All social media icons used in this project are branding resources provided by the respective companies. Since this is a sensitive area in terms of copyright, these icons have not been compressed, edited, or reformatted. **This negatively impacts SEO but ensures compliance with copyright laws.**
 
-## Vision
+## Testing 
 
-There are a lot of features that could be added to this project. As already mentioned, audio integration, and more intricate systems for learning about sound and sound therapy. As of right now, the website is very minimalistic and the user should have the option to dive into more advanced realms. Perhaps with expandable sections or a global mode that switches to a more complex view.
+The website has been tested throughout the development process with the tools listed below. 
 
+- [W3C validator](https://validator.w3.org/)
+- [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+- [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
 
 ## Maintenance 
 
 Due to this project's minimalistic characteristics, it would be optimal to introduce Javascript for future development. This was intended to be a pure HTML and CSS project and to manage close buttons and conditional logic can be quite comprehensive as the project grows in size.
 
 Nevertheless, the code for this project is built with sustainability in mind. For example, CSS classes and IDs are locked in groups to promote further development without having to reorganize previous code.
-
-
-
-
-
-
-
-
-
-
