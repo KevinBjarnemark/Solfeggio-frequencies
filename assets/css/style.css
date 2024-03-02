@@ -279,10 +279,12 @@ main section {
 
 #introduction video {
     width: 90%;
+    max-width: 1920px;
     height: auto; /* Keep original proportions */
     margin-bottom: 85px;
     border: 2px solid #636e74;
     border-radius: 10px;
+    aspect-ratio: 16 / 9;
 }
 
 #table-wrapper {
