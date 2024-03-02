@@ -75,7 +75,7 @@ All references to articles are accessible through clickable links within the web
 
 ### Social Icons
 
-- All social media icons used in this project are branding resources provided by the respective companies. Since this is a sensitive area in terms of copyright, these icons have not been compressed, edited, or reformatted. **This negatively impacts SEO but ensures compliance with copyright laws.**
+- All social media icons used in this project are branding resources provided by the respective companies. Since this is a sensitive area in terms of copyright, these icons have not been compressed, edited, or reformatted. **This negatively impacts SEO and performance but ensures compliance with copyright laws.**
 
 ## Testing 
 

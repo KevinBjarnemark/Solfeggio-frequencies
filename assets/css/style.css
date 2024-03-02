@@ -276,15 +276,21 @@ main section {
     margin-bottom: 20px;
 }
 
+.video-wrapper {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 85px;
+}
 
-#introduction video {
-    width: 90%;
+.video-wrapper video {
+    width: 100%;
+    border: 2px solid #636e74;
+    border-radius: 6px;
     max-width: 1920px;
     height: auto; /* Keep original proportions */
-    margin-bottom: 85px;
-    border: 2px solid #636e74;
-    border-radius: 10px;
-    aspect-ratio: 16 / 9;
 }
 
 #table-wrapper {
