@@ -279,17 +279,18 @@ main section {
 .video-wrapper {
     display: flex;
     width: 100%;
+    max-width: 1920px;
+    aspect-ratio: 16 / 9;
     height: fit-content;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 85px;
 }
 
 .video-wrapper video {
     width: 100%;
-    border: 2px solid #636e74;
-    border-radius: 6px;
     max-width: 1920px;
+    border: 2px solid #636e74;
+    border-radius: 4px;
     height: auto; /* Keep original proportions */
 }
 
