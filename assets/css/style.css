@@ -284,14 +284,9 @@ main section {
     height: fit-content;
     justify-content: center;
     align-items: flex-start;
-}
-
-.video-wrapper video {
-    width: 100%;
-    max-width: 1920px;
-    border: 2px solid #636e74;
     border-radius: 4px;
-    height: auto; /* Keep original proportions */
+    border: 2px solid #636e74;
+    margin-bottom: 85px;
 }
 
 #table-wrapper {
