@@ -85,6 +85,15 @@ The website has been tested throughout the development process with the tools li
 - [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
 - [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
 
+## Deployment
+
+Click [here](https://kevinbjarnemark.github.io/portfolio-1/) to visit the deployed version of this website.
+
+[GitHub](https://github.com/) pages is the service that was used when deploying this website. Here are some pointers on how to go about doing this. 
+- In the settings, select the default branch (main).
+- Wait until the website has been built.
+- Now the website will be automatically deployed as you're pushing changes to your Github repository. 
+
 ## Maintenance 
 
 Due to this project's minimalistic characteristics, it would be optimal to introduce Javascript for future development. This was intended to be a pure HTML and CSS project and to manage close buttons and conditional logic can be quite comprehensive as the project grows in size.
