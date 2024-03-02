@@ -54,7 +54,7 @@ Many possibilities lay ahead If the project becomes successful. As already menti
 
 In the case of the project becoming successful, organizations that aim to promote health would be allowed to access special systems on the site. Therapists who seek to combine their methods with sound therapy might want to, in a more controlled way, configure these systems with their daily routines. 
 
-## Resources
+## Credits and resources
 
 ### Fonts
 
@@ -69,13 +69,16 @@ All references to articles are accessible through clickable links within the web
 
 ### Images, icons, videos, logo and favicon Information
 
-- The images for this project were created and drawn using image editing softwares.
+- The logo and images used in this project was illustrated/drawn in image editing softwares by the creator of this Githgub repository Kevin Bjarnemark.
 - The video found on the landing page was downloaded from Pexels [(Link)](https://www.pexels.com/video/vibrating-speaker-856298/), click [here](https://www.pexels.com/@pixabay/) to explore more videos from this creator.
 - The icons used in this project was found at Fontawesome [(link)](https://fontawesome.com/),
 
 ### Social Icons
 
 - All social media icons used in this project are branding resources provided by the respective companies. Since this is a sensitive area in terms of copyright, these icons have not been compressed, edited, or reformatted. **This negatively impacts SEO and performance but ensures compliance with copyright laws.**
+
+### Code
+
 
 ## Testing 
 
@@ -84,6 +87,9 @@ The website has been tested throughout the development process with the tools li
 - [W3C validator](https://validator.w3.org/)
 - [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
 - [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
+
+Here's a screenshot of the score from Lighthouse tested locally. It is **important** to note that the score may be may not be as favorable when testing the deployed site (with the extension tool). Regarding website improvement, it would be a **priority** to put effort into eliminating layout shifts and other problems totally.
+!["Testresults from Lighthouse "](assets/images/readMe/lighthouseScore.jpg "Lighthouse score")
 
 ## Deployment
 
@@ -98,4 +104,4 @@ Click [here](https://kevinbjarnemark.github.io/portfolio-1/) to visit the deploy
 
 Due to this project's minimalistic characteristics, it would be optimal to introduce Javascript for future development. This was intended to be a pure HTML and CSS project and to manage close buttons and conditional logic can be quite comprehensive as the project grows in size.
 
-Nevertheless, the code for this project is built with sustainability in mind. For example, CSS classes and IDs are locked in groups to promote further development without having to reorganize previous code.
+Nevertheless, the code for this project was built with sustainability in mind. For example, CSS classes and IDs are locked in groups to promote further development without having to reorganize previous code.
