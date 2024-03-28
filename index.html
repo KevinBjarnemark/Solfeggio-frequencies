@@ -18,13 +18,13 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Enhance LCP by preloading this image (suggestion from lighthouse) -->
     <link rel="preload" href="assets/images/global/wave.webp" as="image">
-
 </head>
 <body>
     <!-- Toggle mobile navigation -->
     <div class="toggle-navigation-component">
         <!-- Checkbox for toggeling navigation -->
-        <input type="checkbox" id="toggle-navigation-checkbox" class="toggle-navigation-checkbox">
+        <input type="checkbox" id="toggle-navigation-checkbox" 
+            class="toggle-navigation-checkbox">
         <label for="toggle-navigation-checkbox" class="fa-solid fa-bars"></label>
 
         <!-- Toggled navigation -->
@@ -50,12 +50,14 @@
     <!-- Header -->
     <header>
         <div class="wrap-header">
+            <!-- Logo -->
             <div id="logo">
                 <a href="index.html">
                     <img src="assets/images/global/logo.webp" width="175" height="79" 
                         alt="Website logo representing a waveform surrounded by circles">
                 </a>
             </div>
+            <!-- Navigation components -->
             <nav>
                 <ul id="navigation-menu">
                     <li><a href="index.html">Home</a></li>
@@ -69,6 +71,7 @@
 
     <!-- Main -->
     <main>
+        <!-- Wave form header image -->
         <div id="seamless-wave">
             <img src="assets/images/global/wave.webp" width="720" height="66"
                 alt="A large waveform traveling across the screen">
@@ -97,7 +100,7 @@
                 </video>
             </div>
         </section>
-        <!-- Information -->
+        <!-- Introduction to the Solfeggio frequencies  -->
         <section>
             <div class="text-component">
                 <h2>Solfeggio frequencies
@@ -121,15 +124,18 @@
             </div>
         </section>
 
-        <!-- Frequency table -->
+        <!-- Solfeggio Frequencies table -->
         <section id="table-wrapper">
             <h1 class="hidden-heading">Solfeggio frequencies table</h1>
             <table id="table">
+                <!-- Top row -->
                 <tr>
                     <th>Frequency</th>
                     <th>Benefits</th>
                 </tr>
+                <!-- Table data -->
                 <tr>
+                    <!-- 174 hz -->
                     <td>
                         <i class="fa-solid fa-bandage" aria-label="A bandage icon"></i>
                         <br>
@@ -141,6 +147,7 @@
                     </td>
                 </tr>
                 <tr>
+                    <!-- 285 hz -->
                     <td>
                         <i class="fa-solid fa-dna" aria-label="A DNA icon"></i>
                         <i class="fa-solid fa-virus-covid-slash" 
@@ -155,6 +162,7 @@
                     </td>
                 </tr>
                 <tr>
+                    <!-- 396 hz -->
                     <td>
                         <i class="fa-solid fa-person-running" 
                             aria-label="A running person icon">
@@ -168,6 +176,7 @@
                     </td>
                 </tr>
                 <tr>
+                    <!-- 417 hz -->
                     <td>
                         <i class="fa-solid fa-moon" aria-label="A moon icon"></i>
                         <br>
@@ -178,6 +187,7 @@
                     </td>
                 </tr>
                 <tr>
+                    <!-- 528 hz -->
                     <td>
                         <i class="fa-solid fa-heart" aria-label="A heart icon"></i>
                         <br>
@@ -189,6 +199,7 @@
                     </td>
                 </tr>
                 <tr>
+                    <!-- 639 hz -->
                     <td>
                         <i class="fa-solid fa-brain" aria-label="A brain icon"></i>
                         <br>
@@ -200,6 +211,7 @@
                     </td>
                 </tr>
                 <tr>
+                    <!-- 741 hz -->
                     <td>
                         <i class="fa-solid fa-palette" aria-label="A color palette icon"></i>
                         <br>
@@ -211,6 +223,7 @@
                     </td>
                 </tr>
                 <tr>
+                    <!-- 852 hz -->
                     <td>
                         <i class="fa-solid fa-minus" aria-label="A minus sign icon"></i>
                         <i class="fa-solid fa-plus" aria-label="A plus sign icon"></i>
@@ -223,6 +236,7 @@
                     </td>
                 </tr>
                 <tr>
+                    <!-- 963 hz -->
                     <td>
                         <i class="fa-regular fa-eye" aria-label="An eye icon"></i>
                         <br>
@@ -243,7 +257,7 @@
         <section id="reward-parapraph">
             <h1 class="hidden-heading">Reward</h1>
             <p>
-                Wow, you read through them all! Here's a star for you
+                Wow, you read through them all!? Here's a star for you
                 <i aria-label="An orange star icon" class="fa-solid fa-star"></i> 
             </p>
         </section>
@@ -251,14 +265,21 @@
 
     <!-- Footer -->
     <footer>
+         <!-- Contact section -->
         <section id="contact">
             <div>
                 <h1>Contact</h1>
-                <p><i class="fa-solid fa-phone" aria-label="A phone icon"></i> +4670 .... ...</p>
-                <p><i class="fa-solid fa-envelope" aria-label="A letter icon"></i> contact@h......</p>
+                <p>
+                    <i class="fa-solid fa-phone" aria-label="A phone icon"></i> 
+                    +4670 .... ...
+                </p>
+                <p>
+                    <i class="fa-solid fa-envelope" aria-label="A letter icon"></i> 
+                    contact@h......
+                </p>
             </div>
         </section>
-        
+        <!-- Social media section -->
         <section id="social-icons">
             <h1 class="hidden-heading">Social media links</h1>
             <!-- Following best practises for social media icons by setting the 
@@ -285,6 +306,7 @@
         </section>
     </footer>
     <!-- Font Awesome script -->
-    <script src="https://kit.fontawesome.com/bd00d9a4cc.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bd00d9a4cc.js" 
+        crossorigin="anonymous"></script>
 </body>
 </html>
