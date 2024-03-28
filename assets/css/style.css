@@ -26,7 +26,10 @@
 }
 
 /* Global variables */
-:root {--orange-gradient: linear-gradient(#ffc977, #d8e0e5);}
+:root {
+    --orange-gradient: linear-gradient(#ffc977, #d8e0e5);
+    --orange: #ffc079;
+}
 
 /* Header */
 header {
@@ -269,7 +272,7 @@ main section {
 }
 
 #introduction i {
-    color: #ffc079;
+    color: var(--orange);
 }
 
 #introduction p {
@@ -361,6 +364,23 @@ tr {
     text-decoration: underline;
 }
 
+#reward-parapraph {
+    margin: 75px 0
+
+}
+
+#reward-parapraph i {
+    color: var(--orange);
+    animation-name: reward-paragraph-animation;
+    animation-duration: 8s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear; 
+}
+
+@keyframes reward-paragraph-animation {
+    0%   {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+}
 
 #contact {
     display: flex;
