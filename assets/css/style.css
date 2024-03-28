@@ -59,7 +59,7 @@ header {
 /* Navigation system */
 #navigation-menu, 
 #toggled-navigation-menu {
-    display: flex; /* Hide by default to follow a 'mobile-first' design */
+    display: flex; 
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -71,7 +71,7 @@ header {
 
 /* Hide all list items that do not contain the "contact-item" class */
 #navigation-menu li:not(:has(> .contact-item)) {
-    display: none;
+    display: none; 
 }
 
 #navigation-menu a,
@@ -115,7 +115,7 @@ header {
     transform: scale(1.1);
 }
 
-#seamless-wave {
+#header-wave {
     display: flex;
     justify-content: center;
     position: relative;
@@ -126,7 +126,7 @@ header {
 /* Toggle navigation */
 .toggled-navigation {
     z-index: 1;
-    display:none; /* Hidden by default */
+    display: none; /* Hidden by default */
     position: fixed;
     top: 50%;
     left: 50%;
@@ -139,7 +139,7 @@ header {
     background: var(--orange-gradient);
 }
 
-/* Style for the toggle button */
+/* Style for the toggle hamburger button */
 .toggle-navigation-component .fa-bars {
     z-index: 1;
     position: fixed;
@@ -148,7 +148,8 @@ header {
     cursor: pointer;
 }
 
-.toggle-navigation-checkbox {/* Hide the checkbox entirely */
+.toggle-navigation-checkbox {
+    /* Hide the checkbox entirely */
     display: none;
 }
 /* Show navigation when checkbox is checked */
@@ -160,6 +161,7 @@ header {
     flex-direction: column;
 }
 
+/* Close button forthe toggled navigation pop-up */
 .x-button {
     display: flex;
     position: absolute;
@@ -205,6 +207,7 @@ h2 {
     font-size: 120%;
 }
 
+/* Invisible heading for SEO etc. */
 .hidden-heading {
     display: none;
 }
@@ -262,6 +265,7 @@ main section {
     width: 100%;
 }
 
+/* Introduction section */
 #introduction h1 {
     padding-bottom: 15px;
 }
@@ -295,6 +299,7 @@ main section {
     height: auto; /* Maintain the aspect ratio */
 }
 
+/* Table */
 #table-wrapper {
     display: flex;
     align-items: center;
@@ -332,6 +337,7 @@ tr {
     background-color: #d5dee4;
 }
 
+/* Global text class */
 .text-component {
     width: 92%;
 }
@@ -350,6 +356,7 @@ tr {
     margin: 0 8px
 }
 
+/* Link style */
 .source-link {
     color: #65b2ff;
     background-color: #4d5257;
@@ -359,29 +366,28 @@ tr {
     text-transform: uppercase;
     font-size: 80%;
 }
-
 .source-link:hover {
     text-decoration: underline;
 }
 
 #reward-parapraph {
     margin: 75px 0
-
 }
 
 #reward-parapraph i {
     color: var(--orange);
-    animation-name: reward-paragraph-animation;
+    animation-name: spinning-animation;
     animation-duration: 8s; 
     animation-iteration-count: infinite; 
-    animation-timing-function: linear; 
+    animation-timing-function: linear;
 }
 
-@keyframes reward-paragraph-animation {
+@keyframes spinning-animation {
     0%   {transform: rotate(0deg)}
     100% {transform: rotate(360deg)}
 }
 
+/* Contact */
 #contact {
     display: flex;
     flex-direction: column;
@@ -401,6 +407,7 @@ tr {
     font-weight: 300;
 }
 
+/* Signup */
 #signup {
     text-align: left;
 }
@@ -435,7 +442,6 @@ tr {
 /* Footer */
 footer {
     display: flex;
-/*     justify-content: center; */
     align-items: center;
     flex-direction: column;
     height: fit-content;
@@ -447,7 +453,7 @@ footer h1 {
     font-weight: 400;
 }
 
-/* Enables flex and helps the positioning */
+/* Enables flex */
 #social-icons {
     display: flex;
     flex-direction: column; 
