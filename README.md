@@ -8,6 +8,8 @@ This website targets people with an interest in sound therapy, specifically the 
 
 The website should be referred to as an MVP (Minimum Viable Product) and the vision is to implement more intricate systems that can reach a wider audience. The aim is to develop more advanced systems that are suitable for environments such as spas, hotels, therapy centers, and other places that aim to promote health.
 
+Click [here](https://kevinbjarnemark.github.io/Solfeggio-frequencies/) to visit the deployed version of this website.
+
 ## Features 
 
 !["Different screensizes of the webpage"](assets/images/readMe/screensizes.jpg "Layout")
@@ -92,8 +94,6 @@ Here's a screenshot of the score from Lighthouse tested locally. It is **importa
 !["Testresults from Lighthouse "](assets/images/readMe/lighthouseScore.jpg "Lighthouse score")
 
 ## Deployment
-
-Click [here](https://kevinbjarnemark.github.io/portfolio-1/) to visit the deployed version of this website.
 
 [GitHub](https://github.com/) pages is the service that was used when deploying this website. Here are some pointers on how to go about doing this. 
 - In the settings, select the default branch (main).
